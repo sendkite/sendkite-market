@@ -2,7 +2,7 @@
 function Inventory() {
     return (
         <div className={"inventory"}>
-            Inventory!!!
+          <h2>Inventory</h2>
         </div>
     );
 }
