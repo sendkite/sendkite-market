@@ -1,7 +1,7 @@
 export function formatPrice(won) {
-  return (won / 1000).toLocaleString("en-US", {
+  return (won).toLocaleString("ko-KR", {
     style: "currency",
-    currency: "KRW"
+    currency: "KRW",
   });
 }
 

@@ -1,5 +1,7 @@
 
-function AddItemForm() {
+function AddItemForm({
+  addItem
+}) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const item = {
@@ -10,7 +12,7 @@ function AddItemForm() {
       image: e.target.image.value,
     }
 
-    console.log(item);
+    addItem(item);
   };
 
   return (
